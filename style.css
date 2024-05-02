@@ -23,6 +23,11 @@ html, body{
     height: 100%;
     width: 100%;
 }
+#wrapper{
+    /* background-color: black; */
+    position: relative;
+    z-index: 10;
+}
 #page1{
     min-height: 100vh;
     width: 100vw;
@@ -256,16 +261,16 @@ margin-top: 3vw;
 font-size: 1vw;
 }
 #page2 #gooey{
-    height: 32vw;
-    width: 32vw;
+    height: 34vw;
+    width: 34vw;
     border-radius: 50%;
     background: linear-gradient(to top right,#d22604, #ff5c0b);
     position: absolute;
-    top: 58%;
+    top: 42%;
     left: 25%;
     filter: blur(20px);
     animation-name: gooey;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
@@ -330,3 +335,137 @@ font-size: 1vw;
   background-position: center;
   background-size: cover;
 }
+
+#page5{
+    height: 80vh;
+    width: 100%;
+    background-color: #EFEAE3;
+    padding: 10vw 2vw;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+
+
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    border-left: 1px solid #948e8e;
+    padding: 0 2vw;
+    width: 30%;
+    
+  }
+
+  .swiper-slide img {
+     display: block; 
+    width: 3vw;
+    height: 4vw;
+    object-fit: cover;
+  }
+
+ 
+  
+
+
+#page6{
+    height: 100vh;
+    width: 100%;
+}
+#footer{
+    background-color: black;
+   color: #fff;
+    position: fixed;
+    z-index: 9;
+    min-height: 100vh;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1vw 3vw;
+}
+#footer h1{
+    font-size: 23vw;
+}
+#footer-div{
+    height: 20vh;
+    width: 90vw;
+    /* background-color: rgb(255, 0, 162); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50vh;
+    position: relative;
+    top: 5vw;
+}
+#div1 h2{
+    font-size: 1.9vw;
+    margin-left: 5vw;
+}
+#div2 h3 {
+    font-size: 1.3vw;
+    font-weight: 100;
+    margin-right: 6vw;
+    line-height: -2px;
+}
+#div2 h4{
+    margin-top: 15px;
+    font-size: 1.5vw;
+    font-weight: 100;
+    margin-right: 6vw;
+    color: #F7876E;
+    border-bottom: 2px solid #F7876E;
+}
+#footer-bottom{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    overflow: hidden;
+}
+#footer-bottom a{
+    font-size: 1.2vw;
+    font-weight: 100;
+    text-decoration: none;
+    margin: 0 2.5vw;
+    color: #EFEAE3;
+    
+}
+#footer  #gooey2{
+    height: 60vh;
+    width: 100vw;
+    border-radius: 10px;
+    background: linear-gradient(to top right,#d22604, #ff0b0b);
+    position: absolute;
+    bottom: 40%;
+    left: -10%;
+    filter: blur(20px);
+    z-index: -9;
+    animation-name: gooey;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes gooey {
+    from{
+        /* filter: blur(20px); */
+        transform: translate(10% ,-0%) skew(0);
+        position: fixed;
+        border-bottom-left-radius: 40%;
+    }
+    to{
+        /* filter: blur(30px); */
+        position: fixed;
+        transform: translate(10% , 10%) skew(-5deg);
+        border-bottom-right-radius: 50%
+    }
+};
+
+/* //start from 3:8 responsiveness */
