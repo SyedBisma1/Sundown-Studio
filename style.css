@@ -347,27 +347,17 @@ font-size: 1vw;
     width: 100%;
     height: 100%;
 
-
   }
 
   .swiper-slide {
     font-size: 18px;
     border-left: 1px solid #948e8e;
-    padding: 0 2vw;
+    padding: 0 1vw;
     width: 30%;
     
   }
 
-  .swiper-slide img {
-     display: block; 
-    width: 3vw;
-    height: 4vw;
-    object-fit: cover;
-  }
-
  
-  
-
 
 #page6{
     height: 100vh;
@@ -468,4 +458,3 @@ font-size: 1vw;
     }
 };
 
-/* //start from 3:8 responsiveness */
