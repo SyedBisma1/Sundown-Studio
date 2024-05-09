@@ -8,9 +8,6 @@
     font-weight: 100;
     src: url(./NeueHaasDisplayLight.ttf);
 }
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -454,7 +451,7 @@ font-size: 1vw;
         /* filter: blur(30px); */
         position: fixed;
         transform: translate(10% , 10%) skew(-5deg);
-        border-bottom-right-radius: 50%
+        border-bottom-right-radius: 50%;
     }
 };
 
